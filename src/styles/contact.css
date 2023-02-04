@@ -1,0 +1,18 @@
+.contact{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.contact-title{
+   padding-left: 35%;
+   font-size: 30px;
+   padding-bottom: .3em;
+}
+
+.contact-name{
+   padding-left: 35%; 
+}
+
+.contact-email{
+   padding-left: 25%; 
+}

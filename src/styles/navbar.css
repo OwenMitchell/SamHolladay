@@ -1,0 +1,8 @@
+.App-navbar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 28px;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-bottom: 1em;
+}

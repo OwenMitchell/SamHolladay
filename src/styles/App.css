@@ -3,50 +3,24 @@ body{
   color: white;
 }
 
-.App {
+.App{
+  padding-left: 20vw;
+  padding-right: 20vw;
   display: grid;
-  grid-template-rows: 150px  150px auto;
-}
-
-.App-header {
-  letter-spacing: 25px;
-  display: flex;
-  justify-content: center;
-  font-size: 85px;
+  grid-template-rows: 150px 150px 300px 250px 50px;
 }
 
 .App-navbar {
-  padding-left: 33vw;
-  padding-right: 33vw;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   font-size: 28px;
+  padding-left: 30%;
+  padding-right: 30%;
   margin-bottom: 1em;
 }
 
-.App-calendar{
-  padding-left: 40vw;
-  padding-right: 40vw;
-  justify-content: center;
-}
-
-.App-calendar-event{
-  margin-bottom: .5em;
-  padding-top: .5em;
-  border-top: 1px dashed white;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.App-calendar-event-venue{
-  justify-content: center;
-}
-
-.App-calendar-event-date{
-  justify-content: center;
-}
-
-img{
-  height: min(100vh, 100vw);
-  width: min(100vh, 100vw);
+.App-footer{
+  padding-left: 40%;
+  padding-right: 40%;
+  justify-self: center;
 }
