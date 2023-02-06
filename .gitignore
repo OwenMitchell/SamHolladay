@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+#python env
+backend/env
+backend/__pycache__
+
+
 # testing
 /coverage
 
