@@ -14,6 +14,7 @@ function App() {
     })
     .then((response) => {
       const res =response.data
+      console.log(res);
       setProfileData(({
         profile_name: res.name,
         about_me: res.about}))
@@ -23,7 +24,8 @@ function App() {
         console.log(error.response.status)
         console.log(error.response.headers)
         }
-    })}
+    })
+  }
     //end of new line 
 
   return (
@@ -39,14 +41,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
         </a>
 
         {/* new line start*/}
         <p>To get your profile details: </p><button onClick={getData}>Click me</button>
-        {profileData && <p>TEST!!!!</p>
-        }
-         {/* end of new line */}
+        {/* end of new line */}
       </header>
     </div>
   );

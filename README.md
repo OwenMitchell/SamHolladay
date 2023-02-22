@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### .\backend\env\Scripts\activate
 ### flask run open's backend api on localhost:5000
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm test`

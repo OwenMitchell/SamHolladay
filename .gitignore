@@ -7,8 +7,11 @@
 
 #python env
 backend/env
+backend/Include
+backend/Lib
+backend/pyenv.cfg
 backend/__pycache__
-
+backend/Scripts
 
 # testing
 /coverage
